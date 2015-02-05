@@ -14,7 +14,7 @@ XS-Ruby-Versions: all
 Package: ruby-fog-ecloud
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-fog-xml, ruby-fog-core
 Description: Module for the 'fog' gem to support Terremark EnterpriseCloud
  This library can be used as a module for `fog` or as standalone provider
  to use the Terremark EnterpriseCloud in applications. EnterpriseCloud is a
