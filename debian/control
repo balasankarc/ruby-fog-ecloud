@@ -3,19 +3,19 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-rspec, rake
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-fog-core, ruby-minitest, rake, ruby-shindo, ruby-fog-xml
+Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-fog-ecloud.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-fog-ecloud.git;a=summary
-Homepage: 
-Testsuite: autopkgtest
+Homepage: https://github.com/fog/fog-ecloud
+Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-fog-ecloud
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
-# fog-core (>= 0), fog-xml (>= 0), rake (>= 0, development), shindo (>= 0, development), minitest (>= 0, development), turn (>= 0, development), pry (>= 0, development), coveralls (>= 0, development), rubocop (>= 0, development)
-Description: Module for the 'fog' gem to support Terremark EnterpriseCloud.
+Description: Module for the 'fog' gem to support Terremark EnterpriseCloud
  This library can be used as a module for `fog` or as standalone provider
- to use the Terremark EnterpriseCloud in applications.
+ to use the Terremark EnterpriseCloud in applications. EnterpriseCloud is a
+ scalable cloud solution from Verizon.

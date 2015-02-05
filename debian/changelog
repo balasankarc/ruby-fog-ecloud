@@ -1,5 +1,5 @@
-ruby-fog-ecloud (0.0.2-1) UNRELEASED; urgency=medium
+ruby-fog-ecloud (0.0.2-1) experimental; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #777143)
 
- -- Balasankar C <balasankarc@autistici.org>  Thu, 05 Feb 2015 20:42:52 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Thu, 05 Feb 2015 20:05:30 +0530
